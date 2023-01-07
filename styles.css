@@ -16,12 +16,12 @@ div, svg {
 }
 
 .container {
-  perspective: 4000px;
+  perspective: 2700px;
   width: 600px;
   height: 800px;  
   
   left:50%;
-  top:50%;
+  top:45%;
   transform:translate(-50%,-50%);
 }
 
@@ -54,13 +54,15 @@ padding-left: 2rem;
 }
 
 .nav-menu-icon:hover{
-  opacity: .7;
+  /* opacity: .7; */
   transition: .3s ease;
   scale: .97;
+  filter: invert(32%) sepia(25%) saturate(4262%) hue-rotate(296deg) brightness(89%) contrast(86%);
 }
 
 .logo:hover{
-  opacity: .7;
+  /* opacity: .7; */
   transition: .3s ease;
   scale: .97;
+  filter: invert(32%) sepia(25%) saturate(4262%) hue-rotate(296deg) brightness(89%) contrast(86%);
 }
