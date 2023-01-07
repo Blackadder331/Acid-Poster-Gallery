@@ -16,7 +16,7 @@ div, svg {
 }
 
 .container {
-  perspective: 3000px;
+  perspective: 4000px;
   width: 600px;
   height: 800px;  
   
@@ -31,4 +31,36 @@ div, svg {
 .img {
   background-size: contain !important;
 background-position: center !important;
+}
+
+.logo {
+  width: 8rem;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.nav-menu-icon{
+  width: 2rem;
+  cursor: pointer;
+}
+nav { 
+display: flex;
+max-width: 100vw;
+justify-content: space-between;
+align-items: center;
+margin-top: 2rem;
+padding-right: 2rem;
+padding-left: 2rem;
+}
+
+.nav-menu-icon:hover{
+  opacity: .7;
+  transition: .3s ease;
+  scale: .97;
+}
+
+.logo:hover{
+  opacity: .7;
+  transition: .3s ease;
+  scale: .97;
 }

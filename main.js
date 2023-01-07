@@ -1,7 +1,7 @@
 let xPos = 0;
 
 gsap.timeline()
-    .set('.ring', { rotationY:180, cursor:'grab' }) //set initial rotationY so the parallax jump happens off screen
+    .set('.ring', { rotationY:233, cursor:'grab' }) //set initial rotationY so the parallax jump happens off screen
     .set('.img',  { // apply transform rotations to each image
       rotateY: (i)=> i*-29,
       transformOrigin: '50% 50% 1600px',
